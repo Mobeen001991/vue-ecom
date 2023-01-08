@@ -43,5 +43,20 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss">
+:root {
+  --bg-nav-color: #fff;
+  --shadow-color: #6c757d73;
+  --product-card-bg-color: #dee2e636;
+}
+.carousel__prev {
+  border-radius: 14px;
+  background: var(--bg-nav-color);
+  box-shadow: 0 0 0.2rem var(--shadow-color);
+}
+.carousel__next {
+  border-radius: 14px;
+  background: var(--bg-nav-color);
+  box-shadow: 0 0 0.2rem var(--shadow-color);
+}
 </style>
